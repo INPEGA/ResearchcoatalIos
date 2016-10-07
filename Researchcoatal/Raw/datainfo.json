@@ -1,0 +1,31 @@
+{
+  "AccessLevel":"Restricted public",
+  "AverageScore":5,
+  "Category":"เกษตรกรรม และชลประทาน",
+  "ContactEmail":"sarindap@dof.in.th, nanthiyap@dof.in.th",
+  "ContactName":"คุณสรินดา เปลี่ยนแก้ว, คุณนันทิยา พูลสวัสดิ์",
+  "CreateDate":"2558-08-18T00:00:00.000+07:00",
+  "DataDictionary":"",
+  "DataSetItems":[
+    {
+      "Extension":"csv",
+      "Name":"DOF_research_coastal.csv",
+      "UpdateDate":"2558-09-04T00:00:00.000+07:00"
+    }
+  ],
+  "Description":"ระบบฐานข้อมูลงานวิจัยด้านการประมงเป็นระบบที่จัดทำขึ้นจากความคิดที่ต้องการเห็นนักวิชาการประมง เจ้าหน้าที่ พนักงานราชการ ของกรมประมงและประชาชน บุคคลทั่วไป มีความสะดวกรวดเร็วและประหยัดเวลาในการเข้าถึงระบบฐานข้อมูลงานวิจัย อำนวยความสะดวกแก่นักวิชาการประมงที่ต้องการค้นหาข้อมูลในการวิจัย อัพเดตข้อมูลล่าสุด 29 กรกฎาคม 2558 ข้อมูลทั้งหมดมีจำนวน 406 เรื่อง จากปี 2541 - 2558&nbsp; (17 ปี)ข้อมูลงานวิจัยด้านการประมงชายฝั่งของกรมประมง ",
+  "Frequency":"Not updated(historical only)",
+  "GeoCoverage":"Thailand",
+  "Id":"db2a11f8-14c0-46d3-9352-e28071bde55d",
+  "IsNationalStat":false,
+  "Name":"ข้อมูลงานวิจัยด้านการประมงชายฝั่งของกรมประมง (พ.ศ. 2541 - 2558)",
+  "OpennessScore":3,
+  "PublishedDate":"2558-08-18T00:00:00.000+07:00",
+  "PublisherOrg":"กรมประมง",
+  "Status":"Published",
+  "TempEndDate":"-",
+  "TempStartDate":"-",
+  "URL":"https:\/\/data.go.th\/DatasetDetail.aspx?id=db2a11f8-14c0-46d3-9352-e28071bde55d",
+  "UpdateDate":"2558-09-04T16:17:11.300+07:00",
+  "VoteCount":2
+}

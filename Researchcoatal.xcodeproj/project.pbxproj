@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2259709E1D311DF700D5088D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2259709D1D311DF700D5088D /* AppDelegate.swift */; };
+		225970A51D311DF700D5088D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 225970A41D311DF700D5088D /* Assets.xcassets */; };
+		225970A81D311DF700D5088D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 225970A61D311DF700D5088D /* LaunchScreen.storyboard */; };
+		225970DB1D31289600D5088D /* data.csv in Resources */ = {isa = PBXBuildFile; fileRef = 225970B51D31289600D5088D /* data.csv */; };
+		225970DC1D31289600D5088D /* datainfo.json in Resources */ = {isa = PBXBuildFile; fileRef = 225970B61D31289600D5088D /* datainfo.json */; };
+		225970DD1D31289600D5088D /* license.html in Resources */ = {isa = PBXBuildFile; fileRef = 225970B71D31289600D5088D /* license.html */; };
+		225970DE1D31289600D5088D /* third_party in Resources */ = {isa = PBXBuildFile; fileRef = 225970B81D31289600D5088D /* third_party */; };
+		225970E01D31289600D5088D /* LicenseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225970BB1D31289600D5088D /* LicenseController.swift */; };
+		225970E11D31289600D5088D /* ListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225970BC1D31289600D5088D /* ListController.swift */; };
+		225970E31D31289600D5088D /* MetaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225970BE1D31289600D5088D /* MetaController.swift */; };
+		225970E41D31289600D5088D /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225970BF1D31289600D5088D /* NavigationController.swift */; };
+		225970E51D31289600D5088D /* SettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225970C01D31289600D5088D /* SettingController.swift */; };
+		225970E61D31289600D5088D /* ThirdPartyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225970C11D31289600D5088D /* ThirdPartyController.swift */; };
+		225970E71D31289600D5088D /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225970C31D31289600D5088D /* Extension.swift */; };
+		225970E91D31289600D5088D /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225970C51D31289600D5088D /* Theme.swift */; };
+		225970EA1D31289600D5088D /* DataInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225970C71D31289600D5088D /* DataInfo.swift */; };
+		225970EB1D31289600D5088D /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 225970C81D31289600D5088D /* Model.xcdatamodeld */; };
+		225970F01D31289600D5088D /* ThaiSansNeue-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 225970D21D31289600D5088D /* ThaiSansNeue-Regular.ttf */; };
+		225970F11D31289600D5088D /* ThaiSansNeue-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 225970D31D31289600D5088D /* ThaiSansNeue-SemiBold.ttf */; };
+		225970F21D31289600D5088D /* ThaiSansNeue-UltraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 225970D41D31289600D5088D /* ThaiSansNeue-UltraBold.ttf */; };
+		225970F31D31289600D5088D /* thsarabunnew.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 225970D51D31289600D5088D /* thsarabunnew.ttf */; };
+		225970F41D31289600D5088D /* thsarabunnew_bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 225970D61D31289600D5088D /* thsarabunnew_bold.ttf */; };
+		225970F51D31289600D5088D /* thsarabunnew_bolditalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 225970D71D31289600D5088D /* thsarabunnew_bolditalic.ttf */; };
+		225970F61D31289600D5088D /* thsarabunnew_italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 225970D81D31289600D5088D /* thsarabunnew_italic.ttf */; };
+		225970FB1D3147BC00D5088D /* Research.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225970FA1D3147BC00D5088D /* Research.swift */; };
+		225971041D31E76F00D5088D /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 225971021D31E76F00D5088D /* Realm.framework */; };
+		225971051D31E76F00D5088D /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 225971021D31E76F00D5088D /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		225971061D31E76F00D5088D /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 225971031D31E76F00D5088D /* RealmSwift.framework */; };
+		225971071D31E76F00D5088D /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 225971031D31E76F00D5088D /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2259710B1D31E89600D5088D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 225971091D31E89600D5088D /* Main.storyboard */; };
+		229A80EF1D36AC0700AB922E /* PdfController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229A80EE1D36AC0700AB922E /* PdfController.swift */; };
+		22D6206D1D31F1EC00FD8347 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D6206C1D31F1EC00FD8347 /* DetailController.swift */; };
+		E9B71FCED00C037BEE455812 /* Pods_Researchcoatal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 818B9BAA1CEE21986FD434E4 /* Pods_Researchcoatal.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		225971081D31E76F00D5088D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				225971071D31E76F00D5088D /* RealmSwift.framework in Embed Frameworks */,
+				225971051D31E76F00D5088D /* Realm.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1689B3D36C65AF40B06D68CC /* Pods-Researchcoatal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Researchcoatal.release.xcconfig"; path = "Pods/Target Support Files/Pods-Researchcoatal/Pods-Researchcoatal.release.xcconfig"; sourceTree = "<group>"; };
+		2259709A1D311DF700D5088D /* Researchcoatal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Researchcoatal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2259709D1D311DF700D5088D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		225970A41D311DF700D5088D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		225970A71D311DF700D5088D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		225970A91D311DF700D5088D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		225970B51D31289600D5088D /* data.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data.csv; sourceTree = "<group>"; };
+		225970B61D31289600D5088D /* datainfo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = datainfo.json; sourceTree = "<group>"; };
+		225970B71D31289600D5088D /* license.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = license.html; sourceTree = "<group>"; };
+		225970B81D31289600D5088D /* third_party */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = third_party; sourceTree = "<group>"; };
+		225970BB1D31289600D5088D /* LicenseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LicenseController.swift; sourceTree = "<group>"; };
+		225970BC1D31289600D5088D /* ListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListController.swift; sourceTree = "<group>"; };
+		225970BE1D31289600D5088D /* MetaController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetaController.swift; sourceTree = "<group>"; };
+		225970BF1D31289600D5088D /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		225970C01D31289600D5088D /* SettingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingController.swift; sourceTree = "<group>"; };
+		225970C11D31289600D5088D /* ThirdPartyController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdPartyController.swift; sourceTree = "<group>"; };
+		225970C31D31289600D5088D /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		225970C51D31289600D5088D /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		225970C71D31289600D5088D /* DataInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataInfo.swift; sourceTree = "<group>"; };
+		225970C91D31289600D5088D /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		225970CF1D31289600D5088D /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		225970D01D31289600D5088D /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
+		225970D21D31289600D5088D /* ThaiSansNeue-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ThaiSansNeue-Regular.ttf"; sourceTree = "<group>"; };
+		225970D31D31289600D5088D /* ThaiSansNeue-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ThaiSansNeue-SemiBold.ttf"; sourceTree = "<group>"; };
+		225970D41D31289600D5088D /* ThaiSansNeue-UltraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ThaiSansNeue-UltraBold.ttf"; sourceTree = "<group>"; };
+		225970D51D31289600D5088D /* thsarabunnew.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = thsarabunnew.ttf; sourceTree = "<group>"; };
+		225970D61D31289600D5088D /* thsarabunnew_bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = thsarabunnew_bold.ttf; sourceTree = "<group>"; };
+		225970D71D31289600D5088D /* thsarabunnew_bolditalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = thsarabunnew_bolditalic.ttf; sourceTree = "<group>"; };
+		225970D81D31289600D5088D /* thsarabunnew_italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = thsarabunnew_italic.ttf; sourceTree = "<group>"; };
+		225970FA1D3147BC00D5088D /* Research.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Research.swift; sourceTree = "<group>"; };
+		225970FD1D31E4BD00D5088D /* Researchcoatal-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Researchcoatal-Bridging-Header.h"; sourceTree = "<group>"; };
+		225971021D31E76F00D5088D /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		225971031D31E76F00D5088D /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
+		2259710A1D31E89600D5088D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		229A80EE1D36AC0700AB922E /* PdfController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PdfController.swift; sourceTree = "<group>"; };
+		22D6206C1D31F1EC00FD8347 /* DetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
+		3E872CF0A369F8D5005EA77C /* Pods-Researchcoatal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Researchcoatal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Researchcoatal/Pods-Researchcoatal.debug.xcconfig"; sourceTree = "<group>"; };
+		818B9BAA1CEE21986FD434E4 /* Pods_Researchcoatal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Researchcoatal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		225970971D311DF700D5088D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				225971041D31E76F00D5088D /* Realm.framework in Frameworks */,
+				E9B71FCED00C037BEE455812 /* Pods_Researchcoatal.framework in Frameworks */,
+				225971061D31E76F00D5088D /* RealmSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05F0E9ADCF34E7B39C5366BB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E872CF0A369F8D5005EA77C /* Pods-Researchcoatal.debug.xcconfig */,
+				1689B3D36C65AF40B06D68CC /* Pods-Researchcoatal.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		225970911D311DF600D5088D = {
+			isa = PBXGroup;
+			children = (
+				225971021D31E76F00D5088D /* Realm.framework */,
+				225971031D31E76F00D5088D /* RealmSwift.framework */,
+				2259709C1D311DF700D5088D /* Researchcoatal */,
+				2259709B1D311DF700D5088D /* Products */,
+				05F0E9ADCF34E7B39C5366BB /* Pods */,
+				943AC9DB9F76086BF4AF3F3D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2259709B1D311DF700D5088D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2259709A1D311DF700D5088D /* Researchcoatal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2259709C1D311DF700D5088D /* Researchcoatal */ = {
+			isa = PBXGroup;
+			children = (
+				225970CF1D31289600D5088D /* Realm.framework */,
+				225970D01D31289600D5088D /* RealmSwift.framework */,
+				225970B41D31289600D5088D /* Raw */,
+				225970B91D31289600D5088D /* Controllers */,
+				225970C21D31289600D5088D /* Utils */,
+				225970C61D31289600D5088D /* Models */,
+				225970D11D31289600D5088D /* Fonts */,
+				2259709D1D311DF700D5088D /* AppDelegate.swift */,
+				225970A41D311DF700D5088D /* Assets.xcassets */,
+				225971091D31E89600D5088D /* Main.storyboard */,
+				225970A61D311DF700D5088D /* LaunchScreen.storyboard */,
+				225970A91D311DF700D5088D /* Info.plist */,
+				225970FD1D31E4BD00D5088D /* Researchcoatal-Bridging-Header.h */,
+			);
+			path = Researchcoatal;
+			sourceTree = "<group>";
+		};
+		225970B41D31289600D5088D /* Raw */ = {
+			isa = PBXGroup;
+			children = (
+				225970B51D31289600D5088D /* data.csv */,
+				225970B61D31289600D5088D /* datainfo.json */,
+				225970B71D31289600D5088D /* license.html */,
+				225970B81D31289600D5088D /* third_party */,
+			);
+			path = Raw;
+			sourceTree = "<group>";
+		};
+		225970B91D31289600D5088D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				225970BB1D31289600D5088D /* LicenseController.swift */,
+				225970BC1D31289600D5088D /* ListController.swift */,
+				225970BE1D31289600D5088D /* MetaController.swift */,
+				225970BF1D31289600D5088D /* NavigationController.swift */,
+				225970C01D31289600D5088D /* SettingController.swift */,
+				225970C11D31289600D5088D /* ThirdPartyController.swift */,
+				22D6206C1D31F1EC00FD8347 /* DetailController.swift */,
+				229A80EE1D36AC0700AB922E /* PdfController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		225970C21D31289600D5088D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				225970C31D31289600D5088D /* Extension.swift */,
+				225970C51D31289600D5088D /* Theme.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		225970C61D31289600D5088D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				225970C71D31289600D5088D /* DataInfo.swift */,
+				225970C81D31289600D5088D /* Model.xcdatamodeld */,
+				225970FA1D3147BC00D5088D /* Research.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		225970D11D31289600D5088D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				225970D21D31289600D5088D /* ThaiSansNeue-Regular.ttf */,
+				225970D31D31289600D5088D /* ThaiSansNeue-SemiBold.ttf */,
+				225970D41D31289600D5088D /* ThaiSansNeue-UltraBold.ttf */,
+				225970D51D31289600D5088D /* thsarabunnew.ttf */,
+				225970D61D31289600D5088D /* thsarabunnew_bold.ttf */,
+				225970D71D31289600D5088D /* thsarabunnew_bolditalic.ttf */,
+				225970D81D31289600D5088D /* thsarabunnew_italic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		943AC9DB9F76086BF4AF3F3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				818B9BAA1CEE21986FD434E4 /* Pods_Researchcoatal.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		225970991D311DF700D5088D /* Researchcoatal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 225970AC1D311DF700D5088D /* Build configuration list for PBXNativeTarget "Researchcoatal" */;
+			buildPhases = (
+				FC9A0F255E4C61FB350384F5 /* [CP] Check Pods Manifest.lock */,
+				225970961D311DF700D5088D /* Sources */,
+				225970971D311DF700D5088D /* Frameworks */,
+				225970981D311DF700D5088D /* Resources */,
+				6976B4AB9337B99B63178D8B /* [CP] Embed Pods Frameworks */,
+				A9CC9DEA6FF6A680FD03941A /* [CP] Copy Pods Resources */,
+				225971081D31E76F00D5088D /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Researchcoatal;
+			productName = Researchcoatal;
+			productReference = 2259709A1D311DF700D5088D /* Researchcoatal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		225970921D311DF600D5088D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Peerapun Sangpun";
+				TargetAttributes = {
+					225970991D311DF700D5088D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 225970951D311DF600D5088D /* Build configuration list for PBXProject "Researchcoatal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 225970911D311DF600D5088D;
+			productRefGroup = 2259709B1D311DF700D5088D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				225970991D311DF700D5088D /* Researchcoatal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		225970981D311DF700D5088D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				225970F31D31289600D5088D /* thsarabunnew.ttf in Resources */,
+				225970A81D311DF700D5088D /* LaunchScreen.storyboard in Resources */,
+				225970F41D31289600D5088D /* thsarabunnew_bold.ttf in Resources */,
+				225970DC1D31289600D5088D /* datainfo.json in Resources */,
+				225970DD1D31289600D5088D /* license.html in Resources */,
+				225970F11D31289600D5088D /* ThaiSansNeue-SemiBold.ttf in Resources */,
+				2259710B1D31E89600D5088D /* Main.storyboard in Resources */,
+				225970F21D31289600D5088D /* ThaiSansNeue-UltraBold.ttf in Resources */,
+				225970DE1D31289600D5088D /* third_party in Resources */,
+				225970F61D31289600D5088D /* thsarabunnew_italic.ttf in Resources */,
+				225970DB1D31289600D5088D /* data.csv in Resources */,
+				225970A51D311DF700D5088D /* Assets.xcassets in Resources */,
+				225970F01D31289600D5088D /* ThaiSansNeue-Regular.ttf in Resources */,
+				225970F51D31289600D5088D /* thsarabunnew_bolditalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6976B4AB9337B99B63178D8B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Researchcoatal/Pods-Researchcoatal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9CC9DEA6FF6A680FD03941A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Researchcoatal/Pods-Researchcoatal-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC9A0F255E4C61FB350384F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		225970961D311DF700D5088D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				225970E51D31289600D5088D /* SettingController.swift in Sources */,
+				225970EB1D31289600D5088D /* Model.xcdatamodeld in Sources */,
+				225970E41D31289600D5088D /* NavigationController.swift in Sources */,
+				225970E11D31289600D5088D /* ListController.swift in Sources */,
+				229A80EF1D36AC0700AB922E /* PdfController.swift in Sources */,
+				225970E91D31289600D5088D /* Theme.swift in Sources */,
+				225970E71D31289600D5088D /* Extension.swift in Sources */,
+				225970FB1D3147BC00D5088D /* Research.swift in Sources */,
+				225970E01D31289600D5088D /* LicenseController.swift in Sources */,
+				22D6206D1D31F1EC00FD8347 /* DetailController.swift in Sources */,
+				2259709E1D311DF700D5088D /* AppDelegate.swift in Sources */,
+				225970E61D31289600D5088D /* ThirdPartyController.swift in Sources */,
+				225970E31D31289600D5088D /* MetaController.swift in Sources */,
+				225970EA1D31289600D5088D /* DataInfo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		225970A61D311DF700D5088D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				225970A71D311DF700D5088D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		225971091D31E89600D5088D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2259710A1D31E89600D5088D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		225970AA1D311DF700D5088D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		225970AB1D311DF700D5088D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		225970AD1D311DF700D5088D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E872CF0A369F8D5005EA77C /* Pods-Researchcoatal.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Researchcoatal",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Researchcoatal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thaigovernment.researchcoatal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Researchcoatal/Researchcoatal-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		225970AE1D311DF700D5088D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1689B3D36C65AF40B06D68CC /* Pods-Researchcoatal.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Researchcoatal",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Researchcoatal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thaigovernment.researchcoatal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Researchcoatal/Researchcoatal-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		225970951D311DF600D5088D /* Build configuration list for PBXProject "Researchcoatal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				225970AA1D311DF700D5088D /* Debug */,
+				225970AB1D311DF700D5088D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		225970AC1D311DF700D5088D /* Build configuration list for PBXNativeTarget "Researchcoatal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				225970AD1D311DF700D5088D /* Debug */,
+				225970AE1D311DF700D5088D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		225970C81D31289600D5088D /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				225970C91D31289600D5088D /* Model.xcdatamodel */,
+			);
+			currentVersion = 225970C91D31289600D5088D /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 225970921D311DF600D5088D /* Project object */;
+}
